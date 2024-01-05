@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/colorgrey"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#2E812C"
+    app:cardCornerRadius="15dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="82dp"
+            android:layout_height="102dp"
+            android:background="@drawable/border_grey"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="64dp"
+                android:layout_height="73dp"
+                android:background="@drawable/produkgambar"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productId"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="Id Produk"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:padding="1dp" />
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="Nama Produk"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:padding="1dp" />
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Harga Produk"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:padding="1dp" />
+            <TextView
+                android:id="@+id/productStock"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Stok Produk"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:padding="1dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

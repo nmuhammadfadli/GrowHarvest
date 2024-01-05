@@ -1,0 +1,24 @@
+<!-- res/layout/dialog_number_picker.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tambahButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah ke Keranjang" />
+
+    <Button
+        android:id="@+id/batalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batal" />
+</LinearLayout>

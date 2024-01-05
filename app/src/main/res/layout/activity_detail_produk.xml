@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_detail_produk.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailProduk.DetailProdukActivity">
+
+    <!-- Add your UI elements here, such as ImageView, TextView, etc. -->
+
+    <ImageView
+        android:id="@+id/imageProduk"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/namaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageProduk"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Nama Produk"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/hargaProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaProduk"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:text="Harga: Rp 100.000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/stokProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageProduk"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/hargaProduk"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="15dp"
+        android:text="Stok:12"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/jumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaProduk"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Jumlah Barang:"
+        android:textSize="18sp"/>
+
+    <ImageButton
+        android:id="@+id/tombolKembali"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_above="@id/imageProduk"
+        android:layout_marginBottom="-60dp"
+        android:background="@drawable/arrow_back" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombolTambahKeranjang"
+        android:layout_below="@id/jumlahBarang"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/buttontambahkeranjang"/>
+
+
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/jumlahBarang"
+        android:layout_below="@id/hargaProduk"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Kuantitas Pesanan" />
+
+    <TextView
+        android:id="@+id/idProduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/tombolKembali"
+        android:text="Kembali"
+        android:textColor="@color/greenText"
+        android:textSize="24sp" />
+
+    "
+
+    <!-- Add more TextViews or other UI elements as needed -->
+
+</RelativeLayout>

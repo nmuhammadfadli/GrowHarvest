@@ -1,0 +1,19 @@
+<!-- res/menu/bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/iconhome" />
+
+    <item
+        android:id="@+id/menu_product"
+        android:title="Product"
+        android:icon="@drawable/iconproduct" />
+
+    <item
+        android:id="@+id/menu_account"
+        android:title="Account"
+        android:icon="@drawable/iconaccount" />
+
+</menu>

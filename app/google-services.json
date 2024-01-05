@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418819590677",
+    "project_id": "growharvest-81dab",
+    "storage_bucket": "growharvest-81dab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418819590677:android:caf979401e041825855c1c",
+        "android_client_info": {
+          "package_name": "com.features.growharvest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX8zPheHphOpjuGyL5DXsXcTG5B7Uqc6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

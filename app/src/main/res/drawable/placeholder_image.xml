@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Color -->
+    <item android:drawable="@android:color/darker_gray" />
+
+    <!-- Centered Text -->
+    <item
+        android:width="360dp"
+        android:height="360dp"
+        android:gravity="center">
+        <bitmap
+            android:src="@drawable/iconplaceholderimage"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationActiveText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item> <!-- Sesuaikan dengan ukuran yang diinginkan -->
+        <!-- Mungkin ada atribut lainnya di sini -->
+    </style>
+    <style name="BottomNavigationInActiveText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item> <!-- Sesuaikan dengan ukuran yang diinginkan -->
+        <!-- Mungkin ada atribut lainnya di sini -->
+    </style>
+
+</resources>
